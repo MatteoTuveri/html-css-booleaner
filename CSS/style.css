@@ -8,12 +8,16 @@ body{
 #page-block{
     background-attachment: scroll;
     width: 70%;
+    display: block;
+    text-align: left;
+    margin: auto;
+    background-color: white;
 }
 #logo{
     display: block;
     padding: 3%;
-    padding-bottom: 0;
-    padding-left: 0.5%;
+    padding-bottom: 1%;
+    padding-left: 1%;
     width: 250px;
 }
 #header-background{
@@ -21,15 +25,20 @@ body{
     background-image: url(../Images/pattern.png);
     background-position: top;
     text-align: left;
-
 }
-#page-block{
+h1{
     display: block;
-    text-align: left;
-    margin: auto;
-    background-color: white;
+    font-size: 250%;
+    margin-bottom: 0px;
 }
 main{
     padding: 1%;
-    padding-left: 1%;
+}
+#tim-images{
+    display: block;
+    margin-bottom: 1%;
+}
+#table-settings{
+    display: block;
+    text-align: center;
 }

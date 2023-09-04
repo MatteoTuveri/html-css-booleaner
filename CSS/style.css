@@ -11,6 +11,7 @@ body{
     display: block;
     text-align: left;
     margin: auto;
+    padding-bottom: 2%;
     background-color: white;
 }
 #logo{
@@ -34,6 +35,12 @@ h1{
     font-size: 250%;
     margin-bottom: 0px;
 }
+#author{
+    color:rgb(40, 191, 255);
+}
+.Trasparent{
+    color: rgb(0, 0, 0,.5);
+}
 #tim-images{
     display: block;
     margin-bottom: 1%;
@@ -53,15 +60,19 @@ tbody>tr:nth-child(2n+1){
     background-color: rgb(177, 229, 242);
 }
 #cor-images-1{
+    color: white;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-image: url(../Images/monitor.jpg);
-    background-size:
+    background-size: cover;
 }
+
 #cor-images-2{
+    color: white;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-image: url(../Images/graph.jpg);
+    background-size: cover;
 }

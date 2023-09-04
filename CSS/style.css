@@ -30,6 +30,9 @@ body{
 main{
     padding: 1%;
 }
+figure{
+    margin: 0;
+}
 h1{
     display: block;
     font-size: 250%;

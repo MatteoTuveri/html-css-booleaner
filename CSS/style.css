@@ -65,6 +65,9 @@ table { /* Table Settings */
 tbody>tr:nth-child(2n+1){ /* Table color settings */
     background-color: rgb(177, 229, 242);
 }
+footer{
+    padding: 1%;
+}
 .cor-images{ /* Correlation Articles Settings */
     color: white;
     display: block;

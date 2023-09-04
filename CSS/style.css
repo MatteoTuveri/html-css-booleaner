@@ -38,7 +38,10 @@ main{
     display: block;
     margin-bottom: 1%;
 }
-#table-settings{
-    display: block;
-    text-align: center;
+#table-head{
+    background-color:rgb(32, 169, 229);
+    color: white;
+}
+.col-size{
+    width: 250px;
 }

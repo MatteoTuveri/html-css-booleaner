@@ -38,6 +38,9 @@ main{
     display: block;
     margin-bottom: 1%;
 }
+table {
+    border: none;
+}
 #table-head{
     background-color:rgb(32, 169, 229);
     color: white;

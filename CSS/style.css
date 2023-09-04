@@ -1,81 +1,81 @@
 *{
-    margin-top: 0;
+    margin: 0;
 }
 
-body{
+body{ /* Page background */
     background-color: rgb(0, 0, 0,.5);
 }
-#page-block{
+#page-block{ /* Page Settings */
     background-attachment: scroll;
-    width: 70%;
+    width: 50%;
     display: block;
     text-align: left;
     margin: auto;
     padding-bottom: 2%;
     background-color: white;
 }
-#logo{
+#header-background{ /* Header background and text settings */
+    background-color:rgb(78, 160, 255) ;
+    background-image: url(../Images/pattern.png);
+    background-position: center 680px;
+    text-align: left;
+}
+#logo{ /* Logo Settings */
     display: block;
     padding: 3%;
     padding-bottom: 1%;
     padding-left: 1%;
     width: 250px;
 }
-#header-background{
-    background-color:rgb(78, 160, 255) ;
-    background-image: url(../Images/pattern.png);
-    background-position: top;
-    text-align: left;
-}
-main{
+main{ /* Main Settings */
     padding: 1%;
 }
-figure{
-    margin: 0;
-}
-h1{
-    display: block;
+h1{ /* Title Settings */
     font-size: 250%;
-    margin-bottom: 0px;
+    margin:0;
+}
+.Trasparent{ /* Trasparent Text sentting */
+    color: rgb(0, 0, 0,.5);
+    margin-bottom: 2%;
 }
 #author{
     color:rgb(40, 191, 255);
 }
-.Trasparent{
-    color: rgb(0, 0, 0,.5);
-}
 #tim-images{
-    display: block;
+    margin: 0;
     margin-bottom: 1%;
 }
-table {
+p{
+    margin-bottom: 2%
+}
+ul{
+    margin-bottom: 2%
+}
+table { /* Table Settings */
     border-collapse: collapse;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 #table-head{
     background-color:rgb(32, 169, 229);
     color: white;
 }
-.col-size{
+.col-size{ /* Column sizing */
     width: 250px;
 }
-tbody>tr:nth-child(2n+1){
+tbody>tr:nth-child(2n+1){ /* Table color settings */
     background-color: rgb(177, 229, 242);
 }
-#cor-images-1{
+.cor-images{ /* Correlation Articles Settings */
     color: white;
     display: block;
     width: 300px;
     height: 200px;
-    background-image: url(../Images/monitor.jpg);
     background-size: cover;
+    margin-bottom: 2%;
 }
-
+#cor-images-1{
+    background-image: url(../Images/monitor.jpg);
+}
 #cor-images-2{
-    color: white;
-    display: block;
-    width: 300px;
-    height: 200px;
     background-image: url(../Images/graph.jpg);
-    background-size: cover;
 }
